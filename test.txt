@@ -1,0 +1,20 @@
+<template>
+  <div>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+    />
+    <v-app>
+      <div>
+        <Navbar/>
+        <Home id="home" />
+         <Delimitation id="me" str="Apprendre a me connaitre en 3 étapes" />
+        <Me />
+        <Delimitation id="skill" str="Mes compétences" />
+        <Skills />
+        <Delimitation id="xp" str="Mes experiences" />
+        <Xp />
+      </div>
+    </v-app>
+  </div>
+</template>
